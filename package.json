@@ -18,5 +18,5 @@
   }
 }
 "scripts": {
-  "start": "node main.js"
+  "start": "node index.js"
 }
