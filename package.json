@@ -1,22 +1,16 @@
 {
-  "name": "nodejs",
+  "name": "dbnarayanbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "vehicle detail tracker",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@types/node": "^18.0.6",
-    "node-fetch": "^3.2.6",
-    "node-telegram-bot-api": "^0.64.0",
+    "node-telegram-bot-api": "^0.51.0",
     "request": "^2.88.2",
-    "xml2js": "^0.6.2"
-  }
-}
-"scripts": {
-  "start": "node index.js"
+    "xml2js": "^0.4.23"
+  },
+  "author": "Abhinav Thakur",
+  "license": "MIT"
 }
