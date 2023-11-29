@@ -37,8 +37,3 @@ bot.on('message', (msg) => {
     }
   });
 });
-
-monitor.on('up', (res) => console.log(`${res.website} its on.`));
-monitor.on('down', (res) => console.log(`${res.website} it has died - ${res.statusMessage}`));
-monitor.on('stop', (website) => console.log(`${website} has stopped.`) );
-monitor.on('error', (error) => console.log(error));
